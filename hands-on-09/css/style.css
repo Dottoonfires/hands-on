@@ -43,7 +43,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .box-form-item {
@@ -77,4 +77,46 @@ select {
   position: relative;
   top: 28px;
   left: 15px;
+}
+
+input:focus,
+select:focus {
+  outline-color: #20046e;
+}
+
+.box-form-radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+}
+
+.radio {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.box-form-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: var(--margin-base);
+}
+
+.box-form-button button {
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: var(--color-blue);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  border: 0;
+}
+
+.box img {
+  display: flex;
+  margin-left: 5vmin;
 }
